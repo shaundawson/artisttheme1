@@ -1,5 +1,5 @@
 ﻿<?php
-$siteOwnersEmail = 'shaun@iamsdawson';
+$siteOwnersEmail = 'info@kyleroneal.com';
 
 
 if($_POST) {
@@ -22,7 +22,7 @@ if($_POST) {
         $error['message'] = "Please enter your message. It should have at least 15 characters.";
     }
     // Subject
-    if ($subject == '') { $subject = "Contact Form Submission"; }
+    if ($subject == '') { $subject = "Contact Form Submission From KylerOneal.com"; }
 
 
     // Set Message
