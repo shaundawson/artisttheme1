@@ -832,7 +832,7 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #72c6e6;
+    background: #cbd5da;
     border-color: #72c6e6;
     color: #FFFFFF;
 }
@@ -1447,7 +1447,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 40px;
+    left: 0px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1461,7 +1461,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 150px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1611,6 +1611,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transform: rotate(45deg);
 }
 
+.logo-image-size {
+    height: 200px;
+    width: 200px;
+}
 
 /* menu is open
  * ----------------------------------------------- */
@@ -1721,7 +1725,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         height: 90px;
     }
     .header-logo {
-        left: 30px;
+        left: 10px;
     }
     .header-menu-toggle {
         right: 25px;
@@ -2505,7 +2509,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #72c6e6;
 }
 
 
