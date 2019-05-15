@@ -1,7 +1,3 @@
-/* ===================================================================
- * Glint - Main JS
- *
- * ------------------------------------------------------------------- */
 
 (function($) {
 
@@ -210,7 +206,7 @@
     var clSlickSlider = function() {
 
         $('.clients').slick({
-            arrows: false,
+            arrows: true,
             dots: true,
             infinite: true,
             slidesToShow: 6,

@@ -2415,7 +2415,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::before {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
     content: "";
     opacity: 0;
     visibility: hidden;
@@ -2610,13 +2610,13 @@ html.no-csstransitions .home-content__main {
 
 
 
+
 /* ===================================================================
  * # contact 
  *
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/Midnight\ City.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 15rem;
